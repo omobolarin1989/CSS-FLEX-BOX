@@ -1,0 +1,240 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body{
+      /* max-width: 1440px; */
+      /* width: 100%; */
+      /* margin: 0 auto; */
+}
+
+.header{
+      display: flex;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 8px 64px 16px 64px;
+      padding: 10px 32px;
+}
+
+.logo{
+      width: 50%;
+      align-content: center;
+}
+
+.logo .tjp{
+    
+}
+
+.header .nav {
+display: flex;
+flex: row;
+justify-content: space-evenly;
+align-content: center;
+gap: 97px;
+      
+}
+
+.header .nav a{
+      font-size: 24px;
+      text-decoration: none;
+      font-family: 'Halant';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      color: #041330;
+      
+}
+
+.meg{
+      margin: 0 120px;
+}
+
+.nav .nav-but{
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 10px 16px;
+      border: 1px solid #155EEF;
+      border-radius: 8px;
+      margin: 5px 0;
+      color: #155EEF;
+      background-color: none;
+      letter-spacing: 0.5px;
+      background: none;
+      align-content: center;
+
+
+}
+
+.hero{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      margin:0  64px;
+      background-color: #F9FBFF;
+
+      
+}
+
+.hero .name-info{
+      width: 48%;
+      margin: 147.7px 63px 147.5px 32px;
+
+}
+
+.hero .teal{
+      width: 50%;
+      margin: 64px 32px 64px 0;
+}
+
+.img-teal{
+      width: 100%;
+}
+
+.hero .name-info small{
+      font-family: 'Halant';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #2E3A53;
+}
+
+.hero .name-info .sam{
+      font-family: 'Halant';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 56px;
+      line-height: 120%;
+      color: #155EEF;
+}
+
+.hero .name-info .hero-text{
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      width: 100%;
+}
+
+.hero-button{
+      margin-top: 20px;
+      background: #155EEF;
+      border-radius: 8px;
+      border-color: #155EEF;
+      padding: 10px 42px;
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      color: #FFFFFF;
+}
+
+.about{
+      display: flex;
+      justify-content: space-between;
+      padding: 64px 32px;
+      margin: 64px;
+      align-items: center;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      gap: 100px;
+}
+
+ .pix{
+      width: 50%;
+      border-width: 1px 0px 1px 1px;
+      border: 2px solid #155EEF;
+      padding: 8px 1px 8px 8px;
+     
+}
+
+.about-img{
+      width: 100%;
+      
+}
+
+
+.about-me{
+      width: 50%px;
+}
+
+.about-h2{
+      font-family: 'Halant';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 120%;
+      color: #041330;
+      margin-bottom: 24PX;
+
+}
+
+
+.about .about-me .about-p{
+      
+      width: 604px;
+      height: 216px;
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%;
+      text-align: justify;
+      letter-spacing: 0.5px;
+      color: #2E3A53;
+      
+}
+
+.footer{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 64PX;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      padding: 16px 32px;
+      align-items: center;
+}
+
+.logo, .social, .trademark{
+      width: 33.33%;
+}
+
+.social{
+      display: flex;
+      flex-direction: row;
+      gap: 35.54px;
+      justify-content: center;
+
+}
+
+.social .fit{
+      width: 24px;
+}
+
+.trademark{
+      display: flex;
+      justify-content: flex-end;
+      
+}
+
+.trademark .cr{
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      color: #041330;
+
+}
