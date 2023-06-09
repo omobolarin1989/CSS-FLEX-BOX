@@ -73,24 +73,26 @@ gap: 97px;
 
 .hero{
       display: flex;
+      width: 100%;
       justify-content: space-between;
       align-items: center;
       border: 2px solid #155EEF;
       border-radius: 8px;
       margin:0  64px;
       background-color: #F9FBFF;
+      gap: 100px;
 
       
 }
 
 .hero .name-info{
-      width: 48%;
+      width: 60%;
       margin: 147.7px 63px 147.5px 32px;
 
 }
 
 .hero .teal{
-      width: 50%;
+      width: 40%;
       margin: 64px 32px 64px 0;
 }
 
@@ -121,10 +123,10 @@ gap: 97px;
       font-family: 'Manrope';
       font-style: normal;
       font-weight: 500;
-      font-size: 24px;
+      font-size: 26px;
       line-height: 150%;
       letter-spacing: 0.5px;
-      width: 100%;
+      width: 73%;
 }
 
 .hero-button{
