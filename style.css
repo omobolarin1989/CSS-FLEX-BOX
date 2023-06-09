@@ -6,8 +6,8 @@
 
 body{
       /* max-width: 1440px; */
-      /* width: 100%; */
-      /* margin: 0 auto; */
+      width: 100%;
+      margin: 0 auto;
 }
 
 .header{
@@ -15,7 +15,7 @@ body{
       border: 2px solid #155EEF;
       border-radius: 8px;
       justify-content: space-between;
-      align-items: center;
+      /* align-content: center; */
       margin: 8px 64px 16px 64px;
       padding: 10px 32px;
 }
@@ -31,11 +31,9 @@ body{
 
 .header .nav {
 display: flex;
-flex: row;
-justify-content: space-evenly;
-align-content: center;
-gap: 97px;
-      
+justify-content: space-between;
+align-items: center;
+gap: 97px;      
 }
 
 .header .nav a{
@@ -45,8 +43,7 @@ gap: 97px;
       font-style: normal;
       font-weight: 500;
       font-size: 24px;
-      color: #041330;
-      
+      color: #041330;      
 }
 
 .meg{
@@ -66,7 +63,7 @@ gap: 97px;
       background-color: none;
       letter-spacing: 0.5px;
       background: none;
-      align-content: center;
+      text-align: center;
 
 
 }
@@ -86,13 +83,13 @@ gap: 97px;
 }
 
 .hero .name-info{
-      width: 60%;
+      width: 50%;
       margin: 147.7px 63px 147.5px 32px;
 
 }
 
 .hero .teal{
-      width: 40%;
+      width: 50%;
       margin: 64px 32px 64px 0;
 }
 
@@ -126,7 +123,7 @@ gap: 97px;
       font-size: 26px;
       line-height: 150%;
       letter-spacing: 0.5px;
-      width: 73%;
+      width: 100%;
 }
 
 .hero-button{
