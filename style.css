@@ -43,7 +43,8 @@ gap: 97px;
       font-style: normal;
       font-weight: 500;
       font-size: 24px;
-      color: #041330;      
+      color: #041330;
+      text-decoration: none;
 }
 
 .meg{
