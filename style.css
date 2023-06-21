@@ -5,99 +5,84 @@
 }
 
 body{
-      /* max-width: 1440px; */
+      background-color: #404040;
       /* width: 100%; */
-      /* margin: 0 auto; */
+      border: 4px solid rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      background-color: #FFFFFF;
+
 }
 
-.header{
+section{
+      border: 8px solid blue;
       display: flex;
-      border: 2px solid #155EEF;
-      border-radius: 8px;
-      justify-content: space-between;
-      align-items: center;
-      margin: 8px 64px 16px 64px;
-      padding: 10px 32px;
-}
-
-.logo{
-      width: 50%;
-      align-content: center;
-}
-
-.logo .tjp{
-    
-}
-
-.header .nav {
-display: flex;
-flex: row;
-justify-content: space-evenly;
-align-content: center;
-gap: 97px;
+      flex-direction: column;
+      padding: 0.8% 3% ;
+      width: 100%;
       
 }
 
-.header .nav a{
-      font-size: 24px;
-      text-decoration: none;
+header{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0.5% 2%;
+      border: 2px solid #155EEF;
+      border-radius: 8px;
+      align-items: center;
+      gap: 11.7%;
+
+}
+
+header .nav{
+      display: flex;
+      width: 31.6%;
+      gap: 20%;
+      justify-content: flex-end;
+      /* align-content: center; */
+
+}
+
+header .nav a{
+     
       font-family: 'Halant';
       font-style: normal;
       font-weight: 500;
       font-size: 24px;
+      line-height: 24px;
       color: #041330;
+      text-decoration: none;
+      margin-top: 0.9%;
+}
+
+header .nav .nav-but{
       
-}
-
-.meg{
-      margin: 0 120px;
-}
-
-.nav .nav-but{
-      font-family: 'Manrope';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
+      width: 15%;
+      align-items: center;
       padding: 10px 16px;
       border: 1px solid #155EEF;
       border-radius: 8px;
-      margin: 5px 0;
-      color: #155EEF;
-      background-color: none;
-      letter-spacing: 0.5px;
-      background: none;
-      align-content: center;
+}
 
-
+header .logo{
+      width: 51.8%;
 }
 
 .hero{
       display: flex;
-      /* width: 100%; */
+      /* flex-wrap: wrap; */
+      /* flex-direction: row; */
       justify-content: space-between;
       align-items: center;
+      width: 100%;
       border: 2px solid #155EEF;
       border-radius: 8px;
-      margin:0  64px;
-      background-color: #F9FBFF;
-      gap: 100px;
-
-      
+      gap: 4.8%;
 }
 
 .hero .name-info{
-      width: 60%;
-      margin: 147.7px 63px 147.5px 32px;
-
-}
-
-.hero .teal{
-      width: 40%;
-      margin: 64px 32px 64px 0;
-}
-
-.img-teal{
-      width: 100%;
+      width: 51.4%;
+      margin-left: 2.4%;
 }
 
 .hero .name-info small{
@@ -108,6 +93,7 @@ gap: 97px;
       line-height: 150%;
       letter-spacing: 0.5px;
       color: #2E3A53;
+
 }
 
 .hero .name-info .sam{
@@ -117,126 +103,99 @@ gap: 97px;
       font-size: 56px;
       line-height: 120%;
       color: #155EEF;
+      
 }
 
 .hero .name-info .hero-text{
+      width: 67%;
       font-family: 'Manrope';
       font-style: normal;
       font-weight: 500;
       font-size: 26px;
       line-height: 150%;
-      letter-spacing: 0.5px;
-      width: 73%;
+      letter-spacing: 0.7px;
+      color: #2E3A53;
 }
 
-.hero-button{
-      margin-top: 20px;
-      background: #155EEF;
-      border-radius: 8px;
-      border-color: #155EEF;
-      padding: 10px 42px;
-      font-family: 'Manrope';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
-      color: #FFFFFF;
+.teal{
+      width: 39.2%;
+      margin: 5.5% 2.7% 5% 0;
+      display: flex;
+      justify-content: flex-end;
 }
+
+.hero .teal .img-teal{
+     width: 200%;
+}
+
+
 
 .about{
       display: flex;
-      justify-content: space-between;
-      padding: 64px 32px;
-      margin: 64px;
-      align-items: center;
-      border: 2px solid #155EEF;
-      border-radius: 8px;
-      gap: 100px;
-}
-
- .pix{
-      width: 50%;
-      border-width: 1px 0px 1px 1px;
-      border: 2px solid #155EEF;
-      padding: 8px 1px 8px 8px;
-     
-}
-
-.about-img{
-      width: 100%;
+      flex-wrap: wrap;
       
 }
 
-
-.about-me{
-      width: 50%px;
-}
-
-.about-h2{
-      font-family: 'Halant';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 40px;
-      line-height: 120%;
-      color: #041330;
-      margin-bottom: 24PX;
-
-}
-
-
-.about .about-me .about-p{
-      
-      width: 604px;
-      height: 216px;
-      font-family: 'Manrope';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 150%;
-      text-align: justify;
-      letter-spacing: 0.5px;
-      color: #2E3A53;
-      
+.project{
+      display: flex;
+      flex-wrap: wrap;
 }
 
 .footer{
       display: flex;
-      justify-content: space-between;
-      margin: 0 64PX;
-      border: 2px solid #155EEF;
-      border-radius: 8px;
-      padding: 16px 32px;
-      align-items: center;
+      flex-wrap: wrap;
 }
 
-.logo, .social, .trademark{
-      width: 33.33%;
-}
 
-.social{
-      display: flex;
-      flex-direction: row;
-      gap: 35.54px;
-      justify-content: center;
 
-}
 
-.social .fit{
-      width: 24px;
-}
 
-.trademark{
-      display: flex;
-      justify-content: flex-end;
-      
-}
 
-.trademark .cr{
-      font-family: 'Manrope';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 150%;
-      letter-spacing: 0.5px;
-      color: #041330;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
