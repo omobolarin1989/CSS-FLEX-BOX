@@ -103,6 +103,7 @@ header .logo{
       font-size: 56px;
       line-height: 120%;
       color: #155EEF;
+      margin: 0.5% 0 3% 0;
       
 }
 
@@ -115,6 +116,22 @@ header .logo{
       line-height: 150%;
       letter-spacing: 0.7px;
       color: #2E3A53;
+}
+
+.hero .name-info .hero-button{
+      background: #155EEF;
+      border-radius: 8px;
+      padding: 0.8% 2%;
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      border: 1px #155EEF;
+      color: #FFFFFF;
+
+      margin-top: 1%;
 }
 
 .teal{
