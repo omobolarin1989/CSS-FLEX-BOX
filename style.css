@@ -72,6 +72,10 @@ header nav .nav-but {
 
 }
 
+.nav1{
+  display: none;
+}
+
 .hero {
   padding: 2%;
   display: flex;
@@ -322,16 +326,46 @@ footer .trademark{
 
 @media screen and (max-width: 425px) {
 
+  .logo .tjp{
+    width: 100%;
+  }
+
   header{
     padding: 1% 2% 0 ;
   }
   
+  nav1{
+    display: none;
+  }
+
   nav{
     display: none;
   }
 
+  nav1.visible{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: #041330;
+  }
+
+  nav1 a{
+    color: #041330;
+    font-size: 30px;
+    font-family: Halant;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
+    padding: 10%;
+    text-decoration: none;
+    padding-bottom: 15%;
+  }
+
+
+
   header .hamb{
-    display: block ;
+    display: inline ;
   }
 
   header > .logo{
@@ -550,6 +584,10 @@ footer .trademark{
       width: 80%;
     }
 
+    .nav1{
+      display: none;
+    }
+
     main .project{
       position: static;
       padding: 0.9%;
@@ -688,3 +726,296 @@ footer .trademark{
 
 
 
+/* header { */
+display: flex;
+border: 2px solid #155eef;
+border-radius: 8px;
+justify-content: space-between;
+/* width: 100%; */
+align-content: center;
+margin: 0.6% 4.9% 1.2% 4.9%;
+padding: 0.76% 2.4%;
+gap: 40%;
+}
+
+/* .logo { */
+width: 50%;
+align-content: center;
+}
+
+/* .logo .tjp { */
+}
+
+/* header .nav { */
+width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 20%;
+}
+
+/* header .nav a { */
+font-size: 24px;
+text-decoration: none;
+font-family: "Halant";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #041330;
+text-decoration: none;
+}
+
+
+/* .but{ */
+width: 30%;
+}
+
+/* .nav .nav-but { */
+width: 100%;
+font-family: "Manrope";
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+padding: 15% 5%;
+border: 1px solid #155eef;
+border-radius: 8px;
+color: #155eef;
+background-color: none;
+letter-spacing: 0.5px;
+background: none;
+text-align: center;
+}
+
+/* .hero { */
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 2px solid #155eef;
+border-radius: 8px;
+margin: 1.2% 4.9%;
+background-color: #f9fbff;
+gap: 100px;
+}
+
+/* .hero .name-info { */
+width: 50%;
+margin: 11.3% 4.8% 11.3% 2.4%;
+}
+
+/* .hero .teal { */
+width: 50%;
+padding: 5% 7% 5% 0;
+}
+
+/* .img-teal { */
+width: 100%;
+}
+
+/* .hero .name-info small { */
+font-family: "Halant";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0.5px;
+color: #2e3a53;
+}
+
+/* .hero .name-info .sam { */
+font-family: "Halant";
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 120%;
+color: #155eef;
+}
+
+/* .hero .name-info .hero-text { */
+font-family: "Manrope";
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 150%;
+letter-spacing: 0.5px;
+/* width: 100%; */
+}
+
+/* .hero-button { */
+margin-top: 20px;
+background: #155eef;
+border-radius: 8px;
+border-color: #155eef;
+padding: 10px 42px;
+font-family: "Manrope";
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #ffffff;
+}
+
+/* .about { */
+display: flex;
+justify-content: space-between;
+padding: 4.9% 2.4%;
+margin: 1.2% 4.9%;
+align-items: center;
+border: 2px solid #155eef;
+border-radius: 8px;
+gap: 10%;
+}
+
+/* .pix { */
+width: 50%;
+border-width: 1px 0px 1px 1px;
+border: 2px solid #155eef;
+padding: 0.2% 0.2% 0.3% 0.3%;
+}
+
+/* .about-img { */
+width: 100%;
+}
+
+/* .about-me { */
+width: 50%;
+}
+
+/* .about-h2 { */
+font-family: "Halant";
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+color: #041330;
+margin-bottom: 24px;
+}
+
+/* .about .about-me .about-p { */
+width: 83%;
+height: 216px;
+font-family: "Manrope";
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+text-align: justify;
+letter-spacing: 0.5px;
+color: #2e3a53;
+}
+
+/* .project { */
+padding: 1.4% 1%;
+margin: 0% 4.9%;
+border: 2px solid #155eef;
+border-radius: 8px;
+position: relative;
+}
+
+/* .proj-sect { */
+display: flex;
+position: relative;
+padding-bottom: 5%;
+width: 100%;
+justify-content: space-between;
+}
+
+/* .project .text { */
+position: relative;
+left: 100px;
+background-color: #f9fbff;
+width: 46%;
+padding: 1% 3%;
+margin-bottom: 7%;
+z-index: 2;
+}
+
+/* .p { */
+color: #041330;
+font-size: 40px;
+font-family: Halant;
+font-weight: 600;
+line-height: 53px;
+word-wrap: break-word;
+margin: 1% 0;
+}
+
+.desc,
+.desc-1,
+/* .list { */
+color: #2e3a53;
+font-size: 24px;
+font-family: Manrope;
+font-weight: 400;
+line-height: 28.8px;
+letter-spacing: 0.5px;
+word-wrap: break-word;
+text-align: justify;
+}
+
+/* .desc { */
+width: 90%;
+}
+
+/* .desc-1 { */
+width: 87%;
+}
+
+/* .list { */
+position: relative;
+left: 50px;
+width: 75%;
+margin: 3% 0;
+}
+
+/* .proj-img { */
+width: 52%;
+isolation: isolate;
+position: relative;
+right: 70px;
+top: 80px;
+}
+
+/* .img-proj { */
+width: 100%;
+}
+
+/* .footer { */
+display: flex;
+justify-content: space-between;
+margin: 1.2% 4.9%;
+border: 2px solid #155eef;
+border-radius: 8px;
+padding: 0.7% 0.6%;
+align-items: center;
+}
+
+.logo,
+.social,
+/* .trademark { */
+width: 33.33%;
+}
+
+/* .social { */
+display: flex;
+gap: 7%;
+justify-content: center;
+}
+
+/* .social .fit { */
+width: 5%;
+}
+
+/* .trademark { */
+display: flex;
+justify-content: flex-end;
+}
+
+/* .trademark .cr { */
+font-family: "Manrope";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0.5px;
+color: #041330;
+}
