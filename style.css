@@ -40,6 +40,10 @@ header .hamb{
   display: none;
 }
 
+.close-menu{
+  display: none;
+}
+
 header nav a {
   text-decoration: none;
   font-size: 20px;
@@ -342,12 +346,35 @@ footer .trademark{
     display: none;
   }
 
-  nav1.visible{
+  
+
+  
+
+  .close-menu.visible{
+    display: flex;
+  }
+
+  .hamba.visible{
+    display: none;
+  }
+
+   .close-menu{
+    /* display: block; */
+
+
+  }
+
+  header .hamb{
+    display: block;
+  }
+
+
+  .nav1.visible{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    color: #041330;
+    color: #0413302d;
   }
 
   nav1 a{
@@ -364,9 +391,7 @@ footer .trademark{
 
 
 
-  header .hamb{
-    display: inline ;
-  }
+  
 
   header > .logo{
     width: 70%;
