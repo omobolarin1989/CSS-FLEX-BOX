@@ -480,9 +480,15 @@ footer .trademark{
   }
 
   main .about .about-me .about-p{
+    color: #2E3A53;
     font-size: 14px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    word-wrap: break-word;
+    text-align: justify;
     width: 100%;
-    text-align: center;
   }
 
   main .about .pix{
@@ -504,24 +510,47 @@ footer .trademark{
   }
 
 
-  main .project .text{
+  main .project .text {
     /* position: unset; */
     width: 100% !important;
-    text-align: center;
+    text-align: justify;
+  }
+
+  main .project .text .p{
+      text-align: center;
   }
 
   main .project .text .desc, .desc-1 {
     width: 100%;
-    padding: 0;
-    margin: 0;
+    color: #2E3A53;
+font-size: 14px;
+font-family: Manrope;
+font-weight: 400;
+/* line-height: 19.20px; */
+letter-spacing: 0.20px;
+word-wrap: break-word;
+    text-align: justify;
   }
 
   
   main .project .text .list{
-    width: 95%;
+    
     margin-bottom: 0.7%;
-
+   
   }
+
+
+    main .project .text .list ul li{
+      color: #2E3A53;
+font-size: 16px;
+font-family: Manrope;
+font-weight: 400;
+/* line-height: 19.20px; */
+/* letter-spacing: 0.50px; */
+word-wrap: break-word;
+text-align: justify;
+    }
+  
 
   footer{
     display: flex;
@@ -612,6 +641,8 @@ footer .trademark{
     .nav1{
       display: none;
     }
+
+    
 
     main .project{
       position: static;
@@ -963,7 +994,7 @@ line-height: 53px;
 word-wrap: break-word;
 margin: 1% 0;
 }
-
+   
 .desc,
 .desc-1,
 /* .list { */
