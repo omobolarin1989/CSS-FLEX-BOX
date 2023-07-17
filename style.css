@@ -684,8 +684,15 @@ text-align: justify;
       padding: 0;
       letter-spacing: 0;
       font-size: 19px;
-      width: 80%;
+      width: 100%;
+      font-size: 16px;
     }
+
+    main .hero .name-info .hero-but .hero-button{
+      width: auto;
+    padding: 1% 9%;
+    }
+
     .hero .name-info .sam{
       font-size: 30px;
 
@@ -716,22 +723,143 @@ text-align: justify;
 
     .about .about-me .about-p {
       width: 100%;
-      font-size: 18px;
+      font-size: 16px;
       letter-spacing: 0;
+      line-height: 24px;
 
+    }
+
+    .project{
+      display: flex;
+      justify-content: space-between;
     }
 
     .project .text{
-      width: 50%;
+      width: 48%;
+      padding: 2% 0;
+      margin-right: 2px;
     }
 
-    .project .desc, .desc-1{
-      width: 98%;
+    .project .desc-1{
+      width: 100%;
+      line-height: 20px;
+      font-size: 16px;
+
+    }
+    .project .desc{
+      line-height: 20px !important;
+      width: 100%;
+      font-size: 16px;
     }
 
-    .project .list{
+
+    .project .list {
       width: 90%;
     }
+
+    .project .list ul li{
+      font-size: 16px;
+      line-height: 18px;
+      width: 100%;
+    }
+
+    main .project .proj-img{
+      position: relative;
+      right: unset;
+      display: none;
+      display: block;
+      width: 48%;
+      margin-left: 1%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .hero{
+    padding: 1% 2% 1% 2%;
+  }
+
+  main .hero .name-info .hero-but .hero-button{
+    padding: 1% 2%;
+    width: auto;
+  }
+  
+  
+  .hero .name-info .sam {
+    color: #155EEF;
+    font-size: 35px;}
+
+
+    .hero .hero-text {
+    color: #2E3A53;
+    font-size: 21.6px;
+    font-family: "Manrope";
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    width: 100%;
+    padding: 3% 0;
+}
+
+.about{
+  padding: 0;
+}
+
+.about .about-h2 {
+  color: #041330;
+  font-size: 30px;
+  font-family: "Halant";
+  font-weight: 600;
+  line-height: 48px;
+  word-wrap: break-word;
+  margin-bottom: 1%;
+}
+
+.about-me{
+  padding: 4%;
+}
+
+.about .about-h2{
+  text-align: center;
+}
+
+.about .about-me .about-p {
+  width: 97%;
+  text-align: justify;
+  color: #2E3A53;
+  font-size: 19px;
+  font-family: "Manrope";
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  padding: 0 3%;
+}
+
+.list{
+  width: 93% !important;
+}
+
+.list ul{
+  width: 100%;
+}
+.list ul li{
+   line-height: 21px !important;
+   width: 100%;
+   font-size: 17px !important;
+}
+
+.project .text .p{
+  font-size: 35px;
+}
+
+.project .desc, .desc-1{
+  width: 95% !important;
+  font-size: 17px;
+}
+
 }
 
 
